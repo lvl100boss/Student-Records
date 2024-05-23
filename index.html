@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Records</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/general.css">
+</head>
+<body>
+  <div class="background"></div>
+  <h1 class="student-records-h1">STUDENT RECORDS</h1>
+  <main>
+    <section class="section1">
+      <div class="stud-info">
+        Student Information
+      </div>
+      <form action="">
+        <label for="student-id">Student ID</label>
+        <input type="text" id="student-id" name="student-id" placeholder="Student ID">
+        <label for="student-name">Name</label>
+        <input type="text" id="student-name" name="student-name" placeholder="Student Name">
+        <label for="student-email">Email</label>
+        <input type="text" id="student-email" name="student-email" placeholder="Student Email">
+        <label for="student-phone">Phone Num.</label>
+        <input type="text" id="student-phone" name="student-phone" placeholder="Student Phone">
+        <div class="cont">
+          <label for="student-section" class="section-label">Section:</label>
+          <div class="dropdown">
+            <button type="button" class="dropbtn">Select Option</button>
+            <div class="dropdown-content">
+              <a href="#" data-value="BSCS 2A">BSCS 2A</a>
+              <a href="#" data-value="BSCS 2B">BSCS 2B</a>
+              <a href="#" data-value="BSCS 2C">BSCS 2C</a>
+            </div>
+          </div>
+        </div>
+        <div class="cont">
+          <label for="student-gender" class="gender-label">Gender:</label>
+          <div class="dropdown">
+            <button type="button" class="dropbtn2">Select Option</button>
+            <div class="dropdown-content2">
+              <a href="#" data-value="Male">Male</a>
+              <a href="#" data-value="Female">Female</a>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+    <section class="section2">
+      <div>
+        .
+      </div>
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
